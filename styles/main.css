@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Calibri", sans-serif;
+}
+
+body {
+    background-image: url(../images/bg.png);
+    background-size: cover;
+    background-position: 0vh;
+}
+
+.main-nav, nav {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+
+h1, h2, h2 span, h3{
+    font-family: "Code Pro", sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+h1 {
+    height: 97px;
+    font-size: 110px;
+}
+
+h2 {
+    height: 80px;
+    font-size: 74px;
+}
+
+h2 span {
+    color: #6600b8;
+}
+
+a {
+    font-size: 21px;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+}
+
+header {
+    height: 86px;
+    width: 100%;
+
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: #4c008a;
+}
+
+.logo {
+    margin-left: 240px;
+}
+
+.profile {
+    margin-right: 260px;
+}
+
+header a {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    padding: 0 30px;
+    height: 100%;
+}
+
+.active {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+.btn {
+    height: 35px;
+    width: 185px;
+    background: rgb(140,0,255);
+    background: linear-gradient(-113deg, rgba(140,0,255,1) 0%, rgba(182,93,255,1) 100%);
+    border-radius: 18px;
+    border: none;
+    color: #fff;
+    font-size: 21px;
+}
+
+.account {
+    position: relative;
+}
+
+.account img {
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+footer {
+    margin-bottom: 22px;
+    width: 100%;
+    
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+footer p {
+    color: #000;
+    font-size: 16px;
+}
+
+@font-face {
+    font-family: 'Code Pro';
+    src: url('../fonts/Code-Pro-Bold.woff2') format('woff2'),
+        url('../fonts/Code-Pro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Archive';
+    src: url('../fonts/Archive.woff2') format('woff2'),
+        url('../fonts/Archive.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Panton';
+    src: url('../fonts/Panton-SemiBold.woff') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Panton';
+    src: url('../fonts/Panton-Light.woff') format('woff2');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Panton';
+    src: url('../fonts/Panton-ExtraBold.woff') format('woff2');
+    font-weight: 800;
+    font-style: normal;
+}

@@ -1,0 +1,63 @@
+@import "main.css";
+
+.container {
+    height: calc(100vh - 86px - 18px);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.play {
+    margin-top: 54px;
+}
+
+.play, .players {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.players h3 {
+    margin-left: 22px;
+    font-size: 72px;
+    font-family: "Archive", sans-serif;
+}
+
+.start {
+    font-size: 25px;
+    font-family: "Arial", sans-serif;
+
+    width: 314px;
+    height: 86px;
+    border-radius: 43px;
+    margin-left: 166px;
+
+    background: rgb(102,0,184);
+    background: linear-gradient(-121deg, rgba(102,0,184,1) 0%, rgba(43,7,71,1) 100%);
+}
+
+.left {
+    margin-left: 200px;
+}
+
+.title {
+    display: flex;
+    flex-flow: column nowrap;
+
+}
+
+.title p {
+    margin-top: 20px;
+    font-family: "Arial", sans-serif;
+    font-size: 24px;
+}
+
+.right {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+

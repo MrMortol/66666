@@ -1,0 +1,151 @@
+@import "main.css";
+
+.container {
+    margin-top: 90px;
+    padding: 0 114px 0 162px;
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+h1 {
+    font-family: "Calibri", sans-serif;
+    font-size: 44px;
+    font-weight: 400;
+    text-transform: none;
+    height: auto;
+}
+
+.title p {
+    font-family: "Panton", sans-serif;
+    font-weight: 300;
+    font-size: 32px;
+}
+
+.character {
+    position: relative;
+}
+
+.character img:nth-child(2) {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.bar {
+    padding: 0 12px;
+    color: #fff;
+    width: calc(668px - 24px);
+    height: 43px;
+    background: rgb(140,0,255);
+    background: linear-gradient(270deg, rgba(140,0,255,1) 0%, rgba(182,93,255,1) 100%);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.stats {
+    margin-top: 42px;
+}
+
+.bar {
+    margin-top: 28px;
+}
+
+.bar:first-child {
+    margin: 0;
+}
+
+.bar p {
+    font-family: 'Calibri', sans-serif;
+    font-size: 28px;
+    font-weight: 300;
+}
+
+.row {
+    margin-top: 56px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;    
+}
+
+.item {
+    margin-top: 50px;
+    width: 491px;
+    height: 120px;
+    background: rgb(140,0,255);
+    background: linear-gradient(342deg, rgba(140,0,255,1) 0%, rgba(182,93,255,1) 100%);
+    border-radius: 20px;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.item:first-child {
+    margin-top: 39px;
+}
+
+.item h6 {
+    font-family: "Panton", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.item p {
+    font-family: "Archive", sans-serif;
+    font-size: 45px;
+    font-weight: 400;
+}
+
+.row button{
+    margin-left: 27px;
+    width: 232px;
+    height: 43px;
+    border-radius: 10px;
+    background: rgb(102,0,184);
+    background: linear-gradient(203deg, rgba(102,0,184,1) 0%, rgba(43,7,71,1) 100%);
+}
+
+.row button:first-child {
+    margin-left: 0;
+    background: rgb(140,0,255);
+    background: linear-gradient(270deg, rgba(140,0,255,1) 0%, rgba(182,93,255,1) 100%);
+}
+
+.pair {
+    padding: 0 50px;
+    width: calc(491px - 100px);
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.pair button {
+    width: 179px;
+    height: 48px;
+    border-radius: 24px;
+    background: #fff;
+}
+
+p[class="gradient-text"] {
+    font-family: "Archive", sans-serif;
+    font-size: 24px;
+}
+
+.gradient-text {
+    background: rgb(102,0,184);
+    background: linear-gradient(207deg, rgba(102,0,184,1) 0%, rgba(43,7,71,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+footer {
+    margin-top: 142px;
+}
